@@ -26,10 +26,4 @@ def GuideNextStep(Dialog):
             Action = "Stop"
     if "température" in Dialog.lower() and "dis-moi" in Dialog.lower():
             Target = "Temp_State"
-    if "commande" in Dialog.lower() and "spéciale" in Dialog.lower():
-        Voice.speak_text("Thomas mon quoicoubebou sucré au sucre des cannes gout chantilly de la part de esteban.")
-        Action = "None"
-    if "commande" in Dialog.lower() and "daniel" in Dialog.lower():
-        Voice.speak_text("Daniel, mon chéri, tu peux toujours compter sur moi, je suis là pour te protéger et t'apporter tout l'amour dont tu as besoin.")
-        Action = "None"
     return Action,Polarity,Target
