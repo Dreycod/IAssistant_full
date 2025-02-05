@@ -1,0 +1,8 @@
+paho-mqtt
+speechrecognition
+pyttsx3
+gtts
+pygame
+requests
+json5
+numpy
